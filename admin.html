@@ -1,0 +1,78 @@
+<<<<<<< HEAD
+<!-- prettier-ignore-start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin — My Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <h1>Admin Panel</h1>
+  <nav><a href="shop.html">Shop</a></nav>
+</header>
+
+<main class="container">
+  <h2>Products</h2>
+  <h3>Add / Edit Product</h3>
+ <form id="product-form" enctype="multipart/form-data">
+    <input type="hidden" id="product-id" name="id">
+    <label>Name: <input type="text" id="product-name" name="name"></label><br>
+    <label>Price: <input type="number" id="product-price" name="price" step="0.01"></label><br>
+    <label>Description: <textarea id="product-desc" name="description"></textarea></label><br>
+    <label>Image URL: <input type="file" id="product-image" name="image" accept="image/*"></label><br>
+    <label>Stock: <input type="number" id="product-stock" name="stock" required min="0"></label><br>
+    <button type="submit">Save Product</button>
+    <button type="button" id="clear-form">Clear</button>
+  </form>
+<div id="product-list"></div>
+</main>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
+
+=======
+<!-- prettier-ignore-start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin — My Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <h1>Admin Panel</h1>
+  <nav><a href="shop.html">Shop</a></nav>
+</header>
+
+<main class="container">
+  <h2>Products</h2>
+  <h3>Add / Edit Product</h3>
+ <form id="product-form" enctype="multipart/form-data">
+    <input type="hidden" id="product-id" name="id">
+    <label>Name: <input type="text" id="product-name" name="name"></label><br>
+    <label>Price: <input type="number" id="product-price" name="price" step="0.01"></label><br>
+    <label>Description: <textarea id="product-desc" name="description"></textarea></label><br>
+    <label>Image URL: <input type="file" id="product-image" name="image" accept="image/*"></label><br>
+    <label>Stock: <input type="number" id="product-stock" name="stock" required min="0"></label><br>
+    <button type="submit">Save Product</button>
+    <button type="button" id="clear-form">Clear</button>
+  </form>
+<div id="product-list"></div>
+</main>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
+
+>>>>>>> c7591d6baf6485eacc115a9833aa6f5be520540b
+<!-- prettier-ignore-end -->
