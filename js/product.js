@@ -14,7 +14,7 @@ function getProductId() {
 
 async function fetchProduct(id) {
   try {
-    const res = await fetch('https://essential-oils-backend.onrender.com/api/products');
+    const res = await fetch('${API_BASE}/api/products');
     if (!res.ok) throw new Error("Product not found");
     return await res.json();
   } catch (err) {
