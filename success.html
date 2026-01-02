@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -33,40 +33,4 @@
   console.log('Cart cleared after successful purchase.');
 </script>
 </body>
-=======
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thank You — My Shop</title>
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<header class="site-header">
-  <h1><a href="index.html">My Essential Oils Shop</a></h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
-  </nav>
-</header>
-
-<main class="container">
-  <h2>Thank you for your purchase!</h2>
-  <p>Your order was successfully completed.</p>
-</main>
-
-<script src="/js/shop.js"></script>
-<script>
-  // Clear cart after successful Stripe checkout
-  localStorage.removeItem('cart');
-
-  // Update header cart count
-  const countEl = document.getElementById('cart-count');
-  if (countEl) countEl.textContent = '0';
-
-  console.log('Cart cleared after successful purchase.');
-</script>
-</body>
->>>>>>> c7591d6baf6485eacc115a9833aa6f5be520540b
 </html>
